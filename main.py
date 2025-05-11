@@ -147,7 +147,7 @@ import datetime
 
 from cpmflanker import CPMFlanker
 
-__CHANNEL_USERNAME__ = "@QQlQHQ"
+__CHANNEL_USERNAME__ = "@QQlQHQ OR @MXA7A"
 __GROUP_USERNAME__ = "cpmflankertool"
 __BOT_RICK_NAME__ = "@flankertoolvipbot"
 _CHEATS_NAME = "cpmflankertool1"
@@ -522,7 +522,7 @@ if __name__ == "__main__":
             print(
                 Colorate.Horizontal(
                     Colors.yellow_to_red,
-                    " ─═══════════════════════════════════════[ ☆BEEKEEPER☆ ]══════════════════════════════════─",
+                    " ─═════════════════════════════════════[ ☆BEEKEEPER☆ ]══════════════════════════════════─",
                 )
             )
 
