@@ -522,12 +522,12 @@ if __name__ == "__main__":
             print(
                 Colorate.Horizontal(
                     Colors.yellow_to_red,
-                    "                               ─═══════════════[ ☆BEEKEEPER☆ ]═══════════════─",
+                    " ─════════════════════════[ ☆BEEKEEPER☆ ]═══════════════════════════════─",
                 )
             )
 
             service = IntPrompt.ask(
-                f"[bold]                                     [?] SELECT A SERVICE[red][1-{choices[-1]} or 0][/red][/bold]",
+                f"[bold] [?] SELECT A SERVICE[red][1-{choices[-1]} or 0][/red][/bold]",
                 choices=choices,
                 show_choices=False,
             )
