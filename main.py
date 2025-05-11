@@ -393,7 +393,7 @@ if __name__ == "__main__":
             "[?] ACCESS KEY", "Access Key", password=False
         )
         console.print("[%] TRYING TO LOGIN: ", end=None)
-        cpm = CPMCheats(acc_access_key)
+        cpm = CPMFlanker(acc_access_key)
         login_response = cpm.login(acc_email, acc_password)
         if login_response != 0:
             if login_response == 100:
